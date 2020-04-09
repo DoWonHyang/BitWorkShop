@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+        select에게 name값을 부여하는것이 중요
+    -->
+    <form action="" method="GET">
+        <label for="anima">애니메이션</label>
+        <select name="ani" id="anima">
+            <option value="one">원피스</option>
+            <option value="pun">원펀맨</option>
+            <option value="gui">귀멸의칼날</option>
+        </select>
+        <button type="submit">
+            Submit
+        </button>
+    </form>
+    <br>
+    <br><br><br><br><br>
+    <!--
+        multiple attribute시 다중선택 가능
+    -->
+    <form action="" method="GET">
+        <label for="anima">애니메이션</label>
+        <select multiple name="ani" id="anima">
+            <option value="one">원피스</option>
+            <option value="pun">원펀맨</option>
+            <option value="gui">귀멸의칼날</option>
+        </select>
+        <button type="submit">
+            Submit
+        </button>
+    </form>
+</body>
+</html>
