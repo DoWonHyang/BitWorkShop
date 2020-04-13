@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+        input type Attribute 
+        radio : 하나만
+        checkbox : 여러가지
+
+        name Attribute으로 input radio를 컨트롤
+    -->
+    <label for="i_radio1">고고고</label>
+    <input type="radio" name="gigi" id="i_radio1">
+
+    <label for="i_radio2">노노노</label>
+    <input type="radio" name="gigi" id="i_radio2">
+
+    <!--
+        form Submit 시에
+        name값으로 값을 전송 key => ?gigi=on
+        value : value를 전송 value => ?gigi=value
+    -->
+    <input type="radio" name="in_radio" value="sel">
+    <!--위에 라디오를 선택하고 값을 전송할때 ex) ?in_radio=sel -->
+    <br>
+    <br>
+    <br>
+    <br>
+    <input type="radio" name="go" id="rad1">
+    <input type="radio" name="go" id="rad2">
+    <input type="radio" name="gogo" id="rad3">
+    <input type="radio" name="gogo" id="rad4">
+    <br>
+    <br>
+    <br>
+    <br>
+    <!--
+        ?name = value&name=value&name=value 이렇게 전송됨
+        ex) ?check=0check=1 html하고 css선택시
+    -->
+    <label for="html">Html</label>
+    <input type="checkbox" name="check" id="html" value="0">
+    <label for="css">Css</label>
+    <input type="checkbox" name="check" id="css" value="1">
+    <label for="javascript">javascript</label>
+    <input type="checkbox" name="check" id="javascript" value="2">
+</body>
+</html>

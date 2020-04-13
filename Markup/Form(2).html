@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../Css/markupStyle.css" type="text/css">
+</head>
+<body>
+    <!--
+        input Attribute
+        type: ex) text, password 등 입력받을값
+        placholder: 기본 문구
+        maxlength: 입력값 제한
+        minlength: 입력값 최소
+        required: 필수값
+        disabled: 사용을 막는것
+        value: 일종의 초기값 placeholder랑 다름
+    -->
+    <input type="text" placeholder="원피스" maxlength="13" minlength="2"/>
+
+    <!--
+        input type Attribute
+        email : '@'이 들어가는 이메일을 입력하세요
+        password: ****보이게
+        url: url값만 들어가게
+        number: 숫자만 들어가게 -> min, max number type에서만 사용가능
+        file: 파일만 들어가게 -> acceept 파일의 확장자를 정할때
+    -->
+    <input type="email" placeholder="이메일을 입력하세요.">
+    <input type="password" minlength="4">
+    <input type="url">
+    <input type="number" min="12" max="122" accept=".png, .jpg">
+</body>
+</html>
