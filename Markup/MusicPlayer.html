@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="./MusicPlayer.css">
+</head>
+<body>
+    <ol class="music-player">
+        <li class="music-play-item">
+            <span class="sr-only">## music-1</span>
+            <img 
+                src="https://m.media-amazon.com/images/I/814Rp76DidL._SS500_.jpg" alt="러브 엑스 마키나" 
+                lang="ko" 
+                class="music-album-cover">
+            <div class="music-info">
+                <div class="music-info-detail">
+                    <h1 aria-label="Music title">
+                        <span lang="ko">러브 엑스 마키나</span> 
+                        Love Ex Machina
+                    </h1>
+                    <strong aria-label="Singer">MLSL (밀레니엄 살롱)</strong>
+                </div>
+                <span aria-label="Music play time">04:09</span>
+            </div>
+            <audio src="../audio/music-1.mp3" class="music-audio"></audio>
+        </li>
+        <li class="music-play-item">
+            <span class="sr-only">## music-2</span>
+            <img src="http://image.genie.co.kr/Y/IMAGE/IMG_ARTIST/080/660/591/80660591_1560403300605_1_600x600.JPG" alt="올라가" lang="ko" class="music-album-cover">
+            <div class="music-info">
+                <div class="music-info-detail">
+                    <h1 aria-label="Music title" lang="ko">올라가</h1>
+                    <strong aria-label="Singer">권선홍</strong>
+                </div>
+                <span aria-label="Music play time">03:33</span>
+            </div>
+            <audio src="../audio/music-2.mp3" class="music-audio"></audio>
+        </li>
+    </ol>
+    <script src="./MusicPlayer.js"></script>
+</body>
+</html>
