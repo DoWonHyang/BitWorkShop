@@ -1,0 +1,11 @@
+/*
+    작성일자: 2020.06.10
+    작성자: Dowonhyang
+    설명: flaot 시 부모 태그의 레이아웃 깨짐을 해결하기 위한 코드 (float를 사용한 부모태그에 사용)
+    수정자내역:
+*/
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}

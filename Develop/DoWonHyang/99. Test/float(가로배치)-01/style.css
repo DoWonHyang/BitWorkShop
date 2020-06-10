@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+    letter-spacing: -0.02em;
+    background-color: gainsboro;
+  }
+  
+  a {
+    font-size: 18px;
+    line-height: 20px;
+    color: #8492a6;
+    text-decoration: none;
+  }
+
+  ul {
+    list-style: none;
+    padding-left: 0px;
+    background-color: white;
+    max-width: 540px;
+    border-bottom: 1px solid ivory;
+  }
+
+  ul::after {
+    content: "";
+    display: block;
+    clear: left;
+    /* overflow: hidden; */
+  }
+
+  ul > li {
+    float: left;
+    margin-right: 16px;
+  }
+
+  ul > li > a {
+    display: block;
+    padding: 16px 20px;
+  }
+
+  .active {
+    border-bottom: blue 2px solid;
+  }
+
+  .active > a {
+    color: blue;
+    font-weight: 500;
+  }
