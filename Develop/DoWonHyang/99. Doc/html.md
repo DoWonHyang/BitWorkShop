@@ -3,6 +3,8 @@
 1. sementic tag (header, nav, aside, section)
     - header 문서 도입부에 사용하는태그
 
+    - footer 문서 마지막에 사용하는태그
+
     - nav 문서 이동시에 사용하는 태그
         - section elements로 heading태그(h1, h4 등등) 사용 필수
 
@@ -13,6 +15,14 @@
 
     - section 완벽하게 하나의 기능을 수행할때 사용
         - section elements로 heading태그(h1, h4 등등) 사용 필수
+
+    - article 전달하고자 하는 정보의 완결성이 있을때 사용
+        - section elements로 heading태그(h1, h4 등등) 사용 필수
+
+    - aside 본문과는 동떨어진 내용을 작성할때 사용
+        - section elements로 heading태그(h1, h4 등등) 사용 필수
+    
+    - footer 하단부에 사용
 
 2. Form tag (form 필수 attribute : action(url), method(GET, POST))
     - input
