@@ -46,6 +46,10 @@
         - display : block이지만 길은 막지는 못함
 
         - position이 static이 아닌 요소가 자기의 기준점이됨 (보통 relative를 기준으로 삼는게 좋다)
+
+        - 정 가운데로 요소를 이동 시키는 방법 ex) 위아래 top: 50%; transform: translate(-50%);
+            - top은 자기의 부모요소가 기준
+            - transform의 경우 자기가 기준
  
     - fixed (absolute랑 비슷) 차이는 fixed는 기준이 viewport(보고 있는 브라우저창)
 
