@@ -1,0 +1,190 @@
+.top-wrapper {
+    width: auto;
+    min-height : 32px;
+    background-color : black;
+    color : white;
+}
+
+.header-line-first{
+    height: 86px;
+    width: auto;
+    min-width:1570px;
+
+}
+
+
+.site-title {
+    width: 195px;
+    padding-left: 20px;
+    overflow: hidden;
+    float: left;
+     
+}
+
+.search-rank-wrapper{
+
+    float:left;
+    padding-top: 29px;
+    display: flex;
+}
+
+.asdqwe{
+    width: 250px;
+    height: 25px;
+}
+
+.search-button{
+
+    width:25px;
+    height:25px;
+    display:block;
+}
+
+.magnifier-one {
+    
+    width:30px;
+    height:30px;
+    margin-left: 1px;
+
+
+}
+
+.live-rank-box{
+
+    margin-left : 15px;
+    width:200px;
+    height :25px;
+
+}
+
+.menu-right-header{
+
+    float: right;
+    width: auto;
+}
+
+.menu-list-row{
+
+    float: left;
+    font-size: 20px;
+    color: white;
+    list-style-type: none;
+    margin-right: 20px;
+    padding-top: 13px;
+
+}
+
+.header-line-second{
+    background: #f3f3f3;
+    padding: 10px 15px;
+    position: relative;
+    height: 20px;
+    min-width:1570px;
+}
+
+.second-header-list{
+    display: flex;
+    margin-top: 0px;
+    padding-left: 0px;
+
+}
+
+.second-header-menu{
+
+    font-size: 20px;
+    color: black;
+    list-style-type: none;
+    margin-right: 20px;
+    
+}
+
+.left-line-area{
+
+    float: left;
+    width: 270px;
+    height: 830px;
+    border-right: 1px solid;
+
+}
+
+.body-wrapper{
+
+    width:100%;
+    min-width: 1560px;
+}
+
+.store-rank-box{
+    
+    min-width: 1289px;
+    height: 567px;
+    position: relative;
+    left: 270px;
+    padding: 10px 0 10px 15px;
+    border: 1px solid;
+
+}
+
+.store-photo-box {
+
+    min-width: 1289px;
+    height: 376px;
+    position: relative;
+    left: 270px;
+    padding: 10px 0 10px 15px;
+    border: 1px solid;
+
+}
+/* .right-line-area{
+        position: absolute;
+        left: 270px;
+        top: 0;
+        right: 0;
+        min-width: 1289px;
+        border-left: 1px solid #ddd;
+
+} */
+
+.navigation-wrapper{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.navi-list-box{
+
+    border: black 1px solid;
+    width: 78px;
+    height: 38px;
+    float: left;
+    text-align: center;
+}
+
+.navi-list-wrapper{
+
+    padding-left: 12px;
+    list-style-type: none;
+}
+
+.navi-menu {
+    margin: 0 15px;
+    font-size: 12px;
+    font-family: "굴림","gulim";
+    color: #b2b2b2;
+    margin-top: 60px;
+
+}
+
+.navi-category-line {
+    padding : 10px 0 10px;
+    border-bottom: #b2b2b2 1px solid;
+    font-size: 14px;
+    color: black;
+}
+
+.rank-category-box {
+    position: absolute;
+    width: 172px;
+    height: 230px;
+    float: left;
+    padding: 13px 15px 0 0;
+   
+}
